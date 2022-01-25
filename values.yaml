@@ -1,0 +1,15 @@
+targetSystem: "linux"
+site: "datadoghq.com"
+datadog:
+  apiKey: ee736911cdd75ad1f3fd28781961b7d7
+  clusterChecks:
+    enabled: true
+  apm:
+    portEnabled: true
+  logs:
+    enabled: true
+    containerCollectAll: true
+    containerCollectUsingFiles: true
+  clusterAgent:
+    enabled: true
+# ON PORT 8126
