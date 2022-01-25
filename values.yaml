@@ -1,7 +1,7 @@
 targetSystem: "linux"
 site: "datadoghq.com"
 datadog:
-  apiKey: ee736911cdd75ad1f3fd28781961b7d7
+  apiKey: 
   clusterChecks:
     enabled: true
   apm:
